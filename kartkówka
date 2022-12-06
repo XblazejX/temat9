@@ -1,0 +1,25 @@
+print('Hoł Hoł Hoł mikołaj przybył rozdawac prezenty')
+
+x = int(input('ile chcesz dostac prezentów?'))
+
+if x < 2 :
+    print('\nMIKOŁAJ PRZYCHODZI PRZEZ KOMIN\n')
+    print('co tak mało łap więcej')
+    
+elif x == 2 :
+    print('\nMIKOŁAJ PRZYCHODZI PRZEZ KOMIN\n')
+    print('trymaj bo zasłógujesz')
+    
+elif x == 3 :
+    print('\nMIKOŁAJ PRZYCHODZI PRZEZ KOMIN\n')
+    print('no dostaniesz bo byles grzeczny')
+    
+elif x == 4 :
+    print('\nMIKOŁAJ PRZYCHODZI PRZEZ KOMIN\n')
+    print('oj pazerny jestes, no ale dostaniesz')
+    
+elif x > 4 :
+    print('\nMIKOŁAJ PRZYCHODZI PRZEZ OKNO (ROZBIJAJAC JE)\n')
+    print('oj przegiołeś nie tym razem; w nagrode pocieszenia dostaniesz ruzgę')
+    
+print('koniec programu')
